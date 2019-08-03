@@ -1,10 +1,11 @@
 {
-  "name": "deep-object-diff",
-  "version": "1.1.0",
-  "description": "Deep diffs two objects, including nested structures of arrays and objects, and return the difference.",
-  "main": "dist/index.js",
+  "name": "@dreamworld/deep-object-diff",
+  "version": "1.1.1",
+  "description": "Deep diffs two objects, including nested structures of arrays and objects, and return the difference. Forked to support ES module.",
+  "main": "src/index.js",
   "types": "./index.d.ts",
   "files": [
+    "src",
     "dist",
     "index.d.ts",
     "README.md"
@@ -46,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattphillips/deep-object-diff.git"
+    "url": "git+https://github.com/DreamworldSolutions/deep-object-diff.git"
   },
   "keywords": [
     "diff",
@@ -57,5 +58,5 @@
   "bugs": {
     "url": "https://github.com/mattphillips/deep-object-diff/issues"
   },
-  "homepage": "https://github.com/mattphillips/deep-object-diff#readme"
+  "homepage": "https://github.com/DreamworldSolutions/deep-object-diff#readme"
 }
